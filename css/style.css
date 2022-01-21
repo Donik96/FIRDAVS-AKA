@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,500&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,500&family=Roboto+Mono:ital@1&display=swap');
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+ 
+ 
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    animation-name: animation;
+}
+
+.navbar{
+  width: 100%;
+  height: 150px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  
+  
+
+}
+
+ .navbar .container-fluid .navbar-brand{
+     color: white;
+     margin-left: 25px;
+     font-size: 35px;
+ }
+
+.d-flex h3{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.fa-phone-square-alt{
+    font-size: 35px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: brown;
+
+
+}
+
+.navbar .container-fluid .d-flex i:hover{
+    color: white;
+}
+
+
+.container{
+    position: relative;
+}
+
+
+
+.navbar .container h1{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.navbar .container .fa-phone-alt{
+    font-size: 40px;
+    border-radius: 50%;
+    width: 50px;
+    background-color: brown;
+    height: 50px;
+    padding-left: 7px;
+    padding-top: 3px;
+    position: absolute;
+    bottom: 120px;
+    left: 600px;
+
+    
+    
+}
+
+
+
+.text{
+    margin-left: 300px;
+    position: absolute;
+    bottom:100px;
+    left: 350px;
+}
+
+.carousel-item{
+    height: 500px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+.carousel-item .box{
+    color: black;
+    width: 150%;
+    height: 150px;
+    position: relative;
+    right: 280px;
+}
+
+.carousel-item .box input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    border-style: none;
+    margin-bottom: 25px;
+
+   
+}
+
+.carousel-item .box strong{
+ color: red;
+ position: relative;
+ left: 12px;
+}
+
+ button a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.carousel-item .box button{
+    padding: 8px;
+    background-color: #666;
+    border-radius: 8px;
+    border-style: none;
+    transition: 0.5s;
+    
+}
+
+.carousel-item .box button:hover{
+    background-color: orangered;
+   
+}
+
+.carousel-item .box button a:hover{
+    color: black;
+}
+.check {
+    display: flex;
+    position: relative;
+    left: 200px;
+    color: lightcoral;
+}
+
+
+
+.check input{
+ padding: 25px;
+ position: relative;
+ left: 70px;
+ bottom: 10px;
+ 
+ 
+}
+
+.support{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.support .container .row .col-md-6 h2{
+ position: relative;
+ left: 70px;
+}
+
+.support .container .row .col-md-6 p{
+    font-size: 15px;
+    position: relative;
+    left: 60px;
+    
+}
+
+.support .container .row .col-md-6{
+    margin-top: 50px;
+    width: 38%;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 50px;
+   
+}
+
+.support .container .row .col-md-6 .fas{
+    font-size: 50px;
+    position: relative;
+    right:5px;
+    top: 55px;
+    color: black;
+
+    
+}
+
+.prices .container .row {
+    width: 90%;
+    margin-bottom: 150px;
+}
+
+
+.narxlar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+
+.prices .narxlar button a{
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    bottom: 12px;
+    color: whitesmoke;
+}
+
+.prices .narxlar button a:hover{
+    color: white;
+
+}
+
+.prices .narxlar button{
+    border-radius: 8px;
+    border-style: none;
+    background-color: brown;
+    padding: 25px;
+    height: 10px;
+    position: relative;
+    right: 270px;
+    transition: 0.5s;
+
+ 
+}
+
+.prices .narxlar button:hover{
+    background-color: darkgrey;
+}
+
+
+.p-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer .container{
+    text-align: center;
+    margin-left: 50px;
+    
+   
+}
+
+footer .container h1{
+  margin-bottom: 80px;
+}
+
+footer .container .row .col-md-3 h1{
+    border: 1px solid brown;
+    background-color: brown;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 80px;
+    color: white;
+    
+}
+
+
+footer button{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: brown;
+    position: relative;
+    left: 450px;
+    bottom: 50px;
+    transition: 0.5s;
+}
+
+
+footer button:hover{
+    background-color: brown;
+  
+    
+    
+}
+
+
+footer button a:hover{
+    color: black;
+}
+.soc i{
+    font-size: 50px;
+    position: relative;
+    margin: 50px;
+    margin-left: 250px;
+    cursor: pointer;
+    
+    
+}
+
+.soc i{
+    color: lightskyblue;
+    transition: 0.5s;
+}
+
+.soc .fa-telegram{
+    color: rgb(23, 132, 233);
+}
+
+.soc .fa-whatsapp-square{
+    color: limegreen;
+}
+
+.soc .fa-facebook{
+    color: blue;
+}
+
+.soc .fab:hover{
+ color: black;
+ background-color: white;
+}
